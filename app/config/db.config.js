@@ -1,8 +1,8 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "123456",
-  DB: "testdb",
+  HOST: "fitbit-data.mysql.database.azure.com",
+  USER: "groupmember@fitbit-data",
+  PASSWORD: "Group@2020",
+  DB: "fitbit_user_data",
   dialect: "mysql",
   pool: {
     max: 5,

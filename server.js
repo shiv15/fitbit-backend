@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = require("./app/models");
+const controller = require("./app/controllers/tutorial.controller");
 
 db.sequelize.sync();
 // // drop the table if it already exists
@@ -29,10 +30,23 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to bezkoder application." });
 });
 
-require("./app/routes/turorial.routes")(app);
+app.get("/:id", (req, res) => {
+  console.log(req.params.id);
+  // console.log();
+  controller.findOne(req.params.id).then((data)=>{
+    console.log(data[0].dataValues);
+    res.json(data);
+  }).catch((error)=>{
+    res.send(error);
+  })
+
+});
+
+
+// require("./app/routes/routes")(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
