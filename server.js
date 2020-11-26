@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: ["http://localhost:8081", "https://fitbit-dat.herokuapp.com"],
+  origin: ["http://localhost:8081", "https://fitbit-dat.herokuapp.com", "http://localhost:3000"],
 };
 
 app.use(cors(corsOptions));
