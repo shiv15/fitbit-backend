@@ -55,6 +55,27 @@ exports.findOne = (id) => {
 
 };
 
+exports.findName = (id) => {
+    // console.log("here");
+    // const id = req.query.id;
+    // var condition = user_id ? { user_id: id} : null;
+    return new Promise((res, rej) => {
+        db.user_list.findOne({
+            where: {
+                user_id: id,
+            }
+        })
+            .then(data => {
+                res(data);
+            })
+
+            .catch(err => {
+                return err.message || "Some error occurred while retrieving tutorials.";
+            });
+    })
+
+};
+
 // // Find a single Tutorial with an id
 // exports.findOne = (req, res) => {
 //   const id = req.params.id;

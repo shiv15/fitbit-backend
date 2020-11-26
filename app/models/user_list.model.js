@@ -10,6 +10,9 @@ module.exports = (sequelize, Sequelize) => {
         us_state: {
             type: Sequelize.TEXT
         }
+    }, {
+        timestamps: false,
+        freezeTableName: true
     });
 
     return User_list;

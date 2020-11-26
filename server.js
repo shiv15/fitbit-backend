@@ -42,6 +42,17 @@ app.get("/:id", (req, res) => {
 
 });
 
+app.get("/user/:id", (req, res) => {
+  console.log(req.params.id);
+  controller.findName(req.params.id).then((data)=>{
+    console.log(data);
+    res.json(data);
+  }).catch((error)=>{
+    res.send(error);
+  })
+
+});
+
 
 // require("./app/routes/routes")(app);
 
