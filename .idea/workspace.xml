@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7144d119-4a03-405d-8a88-e350aa7d76bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/associations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user_list.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tutorial.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tutorial.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tutorial.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user_data.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/turorial.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fitbit-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fitbit-backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,8 +59,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606353026675</updated>
-      <workItem from="1606353028755" duration="10704000" />
+      <workItem from="1606353028755" duration="11829000" />
+      <workItem from="1606414372194" duration="2586000" />
     </task>
+    <task id="LOCAL-00001" summary="Created route for model">
+      <created>1606426837275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606426837275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,11 +85,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Created route for model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created route for model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="179" width="597" height="490" key="find.popup" timestamp="1606365320978">
+    <state x="362" y="131" key="RollbackChangesDialog" timestamp="1606366752267">
       <screen x="0" y="25" width="1440" height="801" />
     </state>
+    <state x="362" y="131" key="RollbackChangesDialog/0.25.1440.801@0.25.1440.801" timestamp="1606366752267" />
+    <state x="421" y="179" width="597" height="582" key="find.popup" timestamp="1606426678989">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state x="421" y="179" width="597" height="582" key="find.popup/0.25.1440.799@0.25.1440.799" timestamp="1606426678989" />
     <state x="421" y="179" width="597" height="490" key="find.popup/0.25.1440.801@0.25.1440.801" timestamp="1606365320978" />
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1606425793151">
+      <screen x="0" y="25" width="1440" height="799" />
+    </state>
+    <state x="385" y="148" width="670" height="676" key="search.everywhere.popup/0.25.1440.799@0.25.1440.799" timestamp="1606425793151" />
   </component>
 </project>
